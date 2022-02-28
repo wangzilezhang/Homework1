@@ -1,0 +1,42 @@
+<html>
+<head>
+
+  <link rel="stylesheet" href="css/index.css">
+  <script type="module" src="src/index.js"></script>
+</head>
+<body>
+<div id = "banner" class="banner"> 
+	<a href="index.html"> Question</a>
+	<a href="tags.html"> Tags</a>
+	<p>Fake Stack Overflow</p>
+	<input type="text" placeholder = "search...">
+</div>
+
+
+	<form action = "index.js" method ="get">
+	
+		
+		<h1 style = "font-size: 40;">Answer Text</h1> 
+		<div>
+			<label for "question_text"></label>
+			<input type = "text" name = "tags" id = "tags" placeholder = "Add keywords seperated by white space." autocomplete = "off" required>
+		</div><br>
+		
+		<h1 style = "font-size: 40;">Username</h1> 
+		<div>
+			<label for "username"></label>
+			<input type = "text" name = "username" id = "username" placeholder = "Username should not be more than 15 characters" autocomplete = "off" maxlength = "15" required>
+		</div>		
+		<br>
+		<br>
+		<button type = "submit" style = "float: left;"> Post Answer</button>
+	</form>
+
+
+
+
+  <div id="main" class="main">
+  </div>
+    
+</body>
+</html>
